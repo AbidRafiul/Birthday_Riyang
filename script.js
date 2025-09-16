@@ -223,15 +223,17 @@ function startTypewriter() {
     const messageContent = document.querySelector('.message-content');
     if (!messageContent) return;
     
-    const fullMessage = `Hi,
+    const fullMessage = `Anyyeonggg,
 
 Happy Birthday!
 
 Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
 
-Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).
+Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik AKWKAKWKAK. emm gaeruh meh omong opo aku yang iki aku ngangge Chat GPT akwkawkawkk, wes intine sehat sehat yo, bahagia yo, sukses yo, rejeki yo, jodoh yo (aku yo), pokoke kabeh sing paling apik kanggo kowe.
 
-I love you so much! 💕`;
+Happy Birthday gek ndang mari ayo ngopi
+
+Tuelatt yaa lagi belajar soale haha `;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -266,7 +268,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Cel,<br><br>Happy Birthday!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).<br><br>I love you so much! 💕`;
+            const fullMessage = `Anyyeonggg,<br><br>Happy Birthday!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik AKWKAKWKAK. emm gaeruh meh omong opo aku yang iki aku ngangge Chat GPT akwkawkawkk, wes intine sehat sehat yo, bahagia yo, sukses yo, rejeki yo, jodoh yo (aku yo), pokoke kabeh sing paling apik kanggo kowe.<br><br>Happy Birthday gek ndang mari ayo ngopi<br><br>Tuelatt yaa lagi belajar soale haha `;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -322,36 +324,36 @@ function startPhotoShow() {
     // Foto lokal dari folder images
     const photos = [
         {
-            text: 'Our First Date 💕',
-            image: './images/photo1.jpg'
+            text: 'ki lucu',
+            image: './images/foto1.jpg'
         },
         {
-            text: 'Birthday Moment 🎂',
-            image: './images/photo2.jpg'
+            text: 'kilo apik',
+            image: './images/foto2.jpg'
         },
         {
-            text: 'Adventure Time 🌟',
-            image: './images/photo3.jpg'
+            text: 'no comment',
+            image: './images/foto3.jpg'
         },
         {
-            text: 'Cozy Together ❤️',
-            image: './images/photo4.jpg'
+            text: 'Bu Bid BEGETE',
+            image: './images/foto5.jpg'
         },
         {
-            text: 'Sweet Memories 🥰',
-            image: './images/photo5.jpg'
+            text: 'BUBID part 2',
+            image: './images/foto7.jpg'
         },
         {
-            text: 'Laugh Together 😂',
-            image: './images/photo6.jpg'
+            text: 'Ki taun kapan yang? akwkawk',
+            image: './images/foto6.jpg'
         },
         {
-            text: 'Perfect Day ☀️',
-            image: './images/photo7.jpg'
+            text: 'PIBESDEYYY🥳🥳',
+            image: './images/foto8.jpg'
         },
         {
-            text: 'Love Forever 💖',
-            image: './images/photo8.jpg'
+            text: 'Gek ndang mari',
+            image: './images/foto4.jpg'
         }
     ];
     
@@ -378,7 +380,7 @@ function startPhotoShow() {
             <div class="photo-frames-container">
                 ${framesHTML}
             </div>
-            <div class="photo-strip-footer">💕 BIRTHDAY MEMORIES 💕</div>
+            <div class="photo-strip-footer">PIBESDEYYY🥳🥳</div>
         </div>
         <div class="scroll-indicator">⬇ Scroll Down ⬇</div>
     `;
@@ -567,7 +569,7 @@ function initializeMusicPlayer() {
             </div>
             <div class="music-info">
                 <div class="current-playlist">Now Playing: Birthday Special Mix</div>
-                <div class="playlist-description">Lagu-lagu spesial untuk hari istimewa kamu ✨</div>
+                <div class="playlist-description">Lagu lagu pibesdeyy for U</div>
             </div>
         </div>
     `;
@@ -612,19 +614,19 @@ function loadSpotifyPlaylist(playlistNumber) {
             // Ganti dengan playlist pertama kamu
             embedUrl: 'https://open.spotify.com/embed/playlist/37i9dQZF1DWYtQSOiZF6hj?si=0b945793c2934ba1',
             name: 'Birthday Special Mix',
-            description: 'Lagu-lagu spesial untuk hari istimewa kamu ✨'
+            description: 'Lagu-lagu pibesdey for U ✨'
         },
         2: {
             // Ganti dengan playlist kedua kamu
             embedUrl: 'https://open.spotify.com/embed/playlist/3gPSenyxZMdB3A54HeEruz?si=6b4dec830d4f4a48',
             name: 'Love Songs Collection',
-            description: 'Koleksi lagu cinta terbaik untuk kita ❤️'
+            description: 'Tak tambahi lagu lope lope yang ❤️'
         },
         3: {
             // Ganti dengan playlist ketiga kamu
             embedUrl: 'https://open.spotify.com/embed/playlist/4dlQ4JHE6abxv38aae2HL1?si=95730613199e4dad',
-            name: 'Happy Memories',
-            description: 'Lagu-lagu yang mengingatkan kenangan indah 🌟'
+            name: 'Playlist Abid',
+            description: 'Playlist ku sih iki wkwk'
         }
     };
     
